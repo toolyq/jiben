@@ -25,7 +25,7 @@
                 layer.msg("...");
                 return;
             }
-            axios.post("msg", {msg:msg}).then(function(res){
+            axios.post("http://s.jiben.tech/msg", {msg:msg}).then(function(res){
                 layer.msg('提交成功');
             }).catch(function(err){
                 if(err.response.status == 444){
