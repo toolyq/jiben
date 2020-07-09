@@ -1,7 +1,7 @@
 if (!layui.modules["base"]) {
     layui.extend({
         tableFilter: "layui/my/tableFilter",
-        base: "js/base"
+        base: "myjs/base"
     })
     layui.define([
         'jquery',
